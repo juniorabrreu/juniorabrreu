@@ -1,0 +1,73 @@
+#txtBusca {
+    float: inline-start;
+    background-color: rgb(255, 255, 255);
+    padding-left: 20px;
+    font-style: italic;
+    font-size: 15px;
+    border: none;
+    height: 25px;
+    width: 280px;
+    margin-left: 100px;
+}
+
+#btnBusca {
+    background-color: transparent;
+    border: solid 0px;
+    border-radius: 2px;
+    width: 30px;
+    margin-bottom: -8px;
+}
+
+#Menu ul {
+    list-style: none;
+    padding: 0;
+    background-color: rgb(56, 53, 54);
+}
+
+#Menu ul li{
+    display: inline;
+
+}
+
+#Menu ul li a{
+    color: rgba(255, 253, 253, 0.945);
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+}
+
+#Menu ul li a:hover {
+    background-color:  rgba(60, 127, 190, 0.945);
+    
+}
+
+#Menu ul li:last-child a {
+    float: right;
+    background-color: cadetblue;
+}
+
+#texto {
+    background-color: rgba(0,0,0,0.5);
+    color: #fff;
+}
+
+#principal {
+    position: relative;
+    text-align: justify;
+    margin-top: 70px;
+    margin-left: 60px;
+    height: 50vh;
+    width: -40vh
+    table-layout= fixed;
+    margin: center;  
+}
+
+#imagem {
+    position: relative;
+    width: 80vh;
+    height: 40vh;
+    margin-top: 70px;
+    margin-left: 60px;
+    margin: center;
+}
